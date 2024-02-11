@@ -25,3 +25,9 @@ git reset #volver al último estado del último commit
 git config --global alias.tree "log --graph --decorate --all --oneline"
 
 git ignore
+
+git reset --hard commitid
+
+git reflog
+
+git tag v1.0
