@@ -31,3 +31,15 @@ git reset --hard commitid
 git reflog
 
 git tag v1.0
+
+git merge branchname
+
+# Cuando hay conflictos
+
+# 1. Se corrige en el editor
+
+# 2. Se hace git add del archivo
+
+# 3. Se hace git commit -m "Correccion de conflicto"
+
+git stash
