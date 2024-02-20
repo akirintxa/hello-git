@@ -43,3 +43,12 @@ git merge branchname
 # 3. Se hace git commit -m "Correccion de conflicto"
 
 git stash
+
+# Para subir un proyecto a Github
+
+# Inicializar. Ir a la carpeta del proyecto desde la terminal
+git remote add origin https://github.com/akirintxa/hello-git.git
+# Enlazará los archivos del directorio actual con el reporsitorio hello-git en Github
+
+# Para subir los archivos
+git push -u origin main
